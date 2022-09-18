@@ -390,6 +390,14 @@ li a {
   margin: 3rem;
   margin: auto;
   display: grid;
+  width: 60%;
+  grid-template-columns: 400px auto;
+}
+#page-3 > .down .info {
+  grid-column: 2;
+}
+#page-3 > .down .header {
+  grid-column: 1;
 }
 
 @media screen and (orientation: portrait) {

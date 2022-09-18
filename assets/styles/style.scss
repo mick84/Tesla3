@@ -369,6 +369,14 @@ li a {
 
     margin: auto;
     display: grid;
+    width: 60%;
+    grid-template-columns: 400px auto;
+    .info {
+      grid-column: 2;
+    }
+    .header {
+      grid-column: 1;
+    }
   }
 }
 @media screen and (orientation: portrait) {
